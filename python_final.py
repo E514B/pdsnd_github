@@ -95,7 +95,7 @@ def time_stats(df, month, day):
     if day == 'all':
         print("The most common day is: {}".format(str(df['day_of_week'].mode().values[0])))
     else:
-        print("Common day is not available since a specific day was selected")
+        print("Common day is unavailable since a specific day was selected")
 
 
     # TO DO: display the most common start hour
