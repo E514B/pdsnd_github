@@ -7,7 +7,8 @@ This project was created on 03/13/2021
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This code allows a user to pull bike share information from Chicago, New York City
+and Washington.
 
 ### Files used
 Include the files used
