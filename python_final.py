@@ -24,7 +24,7 @@ def get_filters():
             print('Please try again.\n')
             city = input('Please enter chicago, new york city or washington.\n').lower()
         else:
-            print(('Your city is {}').format(city))
+            print(('You have chosen {}').format(city))
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
