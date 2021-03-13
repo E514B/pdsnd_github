@@ -89,7 +89,7 @@ def time_stats(df, month, day):
     if month == 'all':
         print("The most common month is: {}".format(str(df['month'].mode().values[0])))
     else:
-        print("Common month is not available since a specific month was selected")
+        print("Common month is unavailable since a specific month was selected")
 
     # TO DO: display the most common day of week
     if day == 'all':
